@@ -1,6 +1,7 @@
 :root{
     --black:#1B1C1F;
     --white:#FFFFFF;
+    --green:#1C9675;
     --sm:16px;
     --md:24px;
     --lg:40px;
@@ -15,4 +16,16 @@
 }
 .title{
     font-size: var(--lg);
+}
+.boton{
+    height: 100px;
+    background-color: var(--green) ;
+    border: none;
+    border-radius: 5px;
+}
+.add-meta{
+    justify-content: center;
+    display: flex;
+    background-color: var(--black);
+    height: 100px;
 }

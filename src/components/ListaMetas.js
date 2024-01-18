@@ -20,7 +20,7 @@ function ListaMetas(){
                 <input type='text'value={nuevaMeta} 
                 placeholder="NuevaMeta"
                 onChange={(e)=>setNuevaMeta(e.target.value)}/>
-                <button className='boton' onClick={agregarMeta}>add</button>
+                <button className='boton' onClick={agregarMeta}>Agregar</button>
             </div>
             <div className="contenedor-metas">
             {metas.map((meta)=>(
