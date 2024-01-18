@@ -1,11 +1,11 @@
-import './App.css';
-import ListaMetas from './components/ListaMetas.js';
+import React from "react";
+import Boton from "./components/Boton";
+
 function App() {
   return (
-    <div className="App">
-      <ListaMetas/>
+    <div>
+      <Boton/>
     </div>
   );
 }
-
 export default App;
