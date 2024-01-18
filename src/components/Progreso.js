@@ -1,13 +1,15 @@
 import React from "react";
-import'../style/Progreso.css';
-function Progreso({objetivo, onDelete}){
+import '../style/Progreso.css';
+function Progreso({comp,pend}){
     return(
-    <div className="obj">
-        <div className="obj-info">
-            <p className="texto">{objetivo.texto}</p>
+        <div className="container-prog">
+            <div className="completadas">
+                <p className="text">Completadas: {comp}</p>
+            </div>
+            <div className="pendientes">
+                <p className="text">Pendientes: {pend}</p>
+            </div>
         </div>
-        <button className='boton' onClick={()=> onDelete(objetivo.id)}><img src='../icons/basura.svg' alt=""/></button>
-    </div>
     );
 }
 export default Progreso;
