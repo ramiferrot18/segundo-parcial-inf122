@@ -1,12 +1,10 @@
-
-import './components/Meta';
 import './App.css';
-import Meta from './components/Meta';
-/*import ListaMetas from './components/ListaMetas';*/
-
+import ListaMetas from './components/ListaMetas.js';
 function App() {
   return (
-    <Meta/>
+    <div className="App">
+      <ListaMetas/>
+    </div>
   );
 }
 
